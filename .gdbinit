@@ -101,7 +101,7 @@ prompt, see the command `python print(gdb.prompt.prompt_help())`''',
 
 See the `prompt` attribute. This value is used as a Python format string where
 `{pid}` is expanded with the process identifier of the target program.''',
-                'default': '\[\e[1;35m\]>>>\[\e[0m\]'
+                'default': '\[\e[1;35m\]gdb>\[\e[0m\]'
             },
             'prompt_not_running': {
                 'doc': '''Define the value of `{status}` when the target program is running.
